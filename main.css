@@ -1,0 +1,335 @@
+body {
+    padding-top: 5rem;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.navbar-brand img {
+    max-width: 10em;
+}
+
+.navbar .nav-item .nav-link {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(7, 6, 22, 0.8);
+}
+
+.navbar .nav-item {
+    margin-right: 1em;
+}
+
+.theme-btn {
+    /* Rectangle 1 */
+    background: #3A83B5;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 6px;
+    color: #fff;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+
+    /* Contact Us */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.theme-btn:hover {
+    color: #fff;
+}
+
+.navbar {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+
+.hero {
+    background: #FAFAFD;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.hero img {
+    max-width: 100%;
+}
+
+.theme-h1 {
+    /* All financial Solutions under One Roof */
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 61px;
+    color: #000000;
+}
+
+.theme-color {
+    color: #3A83B5 !important;
+}
+
+.theme-p {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(7, 6, 22, 0.5);
+    margin-top: 12px;
+}
+
+.theme-bg2 {
+    background: #E57C25;
+}
+
+.segments {
+}
+
+.theme-head {
+    /* Choose your Segment */
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 49px;
+    color: #000000;
+    padding-top: 0em;
+    padding-bottom: 1.5em;
+}
+
+.segment-card {
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.card-holder {
+    /* Ellipse 2 */
+    background: #FAFAFD;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.14);
+    border-radius: 150px;
+    padding: 2.5em;
+}
+
+.card-holder img {
+    max-width: 100%;
+}
+
+.card-title {
+    /* Shares & Stocks */
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-top: 1em;
+}
+
+.hero .theme-p {
+    font-size: 24px;
+}
+
+.segement-row {
+    flex-direction: row;
+    align-items: center;
+    display: run-in;
+    text-align: center;
+    width: 135%;
+}
+
+.segment-main {
+    overflow: scroll;
+    max-width: 100%;
+}
+
+.section-body {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.features {
+    background: #FAFAFD;
+}
+
+.feature-bigcard {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.12);
+    padding: 2em;
+    text-align: center;
+}
+
+.description {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(7, 6, 22, 0.54);
+}
+
+.feature-bigcard .description {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(7, 6, 22, 0.81);
+    padding-top: 1em;
+}
+
+.title {
+}
+
+.feature-smallcard .title {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.steps {
+}
+
+.step-card {
+    text-align: center;
+}
+
+.step-card .title {
+    /* Step 1 */
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 8px;
+}
+
+.step-card img {
+    max-width: 100px;
+    padding-bottom: 12px;
+}
+
+.step-card .description {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(7, 6, 22, 0.81);
+}
+
+.steps img {
+    max-width: 100%;
+}
+
+.blogs {
+    background-color: #FAFAFD;
+}
+
+.blog-card {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.12);
+}
+
+.theme-bg {
+    background-color: #002068;
+}
+
+.blog-card h3 {
+    color: #fff;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 1em;
+}
+
+.blog-card h4 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+}
+
+.segment-card img {
+    max-width: 100%;
+}
+
+.partner {
+    background: #FAFAFD;
+}
+
+.partner img {
+    max-width: 100%;
+}
+
+.footer {
+    background-color: #232323;
+}
+
+.sm-icons {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-right: 70px;
+}
+
+.sm-icons li {
+}
+
+.footer-nav {
+}
+
+.footer-nav li {
+    background: transparent;
+    border: 0 solid;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+
+    /* identical to box height */
+    color: #FFFFFF;
+    padding: 6px;
+}
+
+.footer .title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+
+    /* identical to box height */
+    text-align: right;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+
+.feature-smallcard {
+    margin-bottom: 2em;
+}
