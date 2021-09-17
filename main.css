@@ -333,3 +333,77 @@ body {
 .feature-smallcard {
     margin-bottom: 2em;
 }
+
+.sub-hero {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: #FAFAFD;
+}
+
+.sub-hero .theme-h1 {
+    text-align: center;
+}
+
+.about-u {
+    background-image: url('assets/Feature/Single/Cover%20Image.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 6em;
+}
+
+.about-u .row {
+}
+
+.vision-card {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.12);
+    padding: 2em;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: -6.5em;
+}
+
+.about-u .vision-card .theme-head {
+    padding-bottom: 12px;
+}
+
+.team-card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 60px rgba(89, 84, 233, 0.1);
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+    padding: 2em;
+}
+
+.team-card img {
+    padding: 0em;
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+
+.team-card h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 34px;
+
+    /* identical to box height */
+    color: #000000;
+}
+
+.team-card p {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+
+    /* identical to box height, or 140% */
+    text-align: center;
+    color: rgba(7, 6, 22, 0.5);
+}
