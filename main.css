@@ -29,7 +29,8 @@ body {
     background: #3A83B5;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
     border-radius: 6px;
-    color: #fff;
+
+    /* color: #fff */
     padding-left: 1.2em;
     padding-right: 1.2em;
 
@@ -63,7 +64,7 @@ body {
 
 .theme-h1 {
     /* All financial Solutions under One Roof */
-    font-family: Avenir;
+    font-family: Red Hat Display;
     font-style: normal;
     font-weight: 800;
     font-size: 52px;
@@ -93,7 +94,7 @@ body {
 
 .theme-head {
     /* Choose your Segment */
-    font-family: Avenir;
+    font-family: Red Hat Display;
     font-style: normal;
     font-weight: 800;
     font-size: 28px;
@@ -113,7 +114,7 @@ body {
     background: #FAFAFD;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.14);
     border-radius: 150px;
-    padding: 2.5em;
+    padding: 2em;
 }
 
 .card-holder img {
@@ -122,7 +123,7 @@ body {
 
 .card-title {
     /* Shares & Stocks */
-    font-family: Avenir;
+    font-family: Red Hat Display;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
@@ -254,7 +255,7 @@ body {
 
 .blog-card h3 {
     color: #fff;
-    font-family: Avenir;
+    font-family: Red Hat Display;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -263,7 +264,7 @@ body {
 }
 
 .blog-card h4 {
-    font-family: Avenir;
+    font-family: Red Hat Display;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -406,4 +407,8 @@ body {
     /* identical to box height, or 140% */
     text-align: center;
     color: rgba(7, 6, 22, 0.5);
+}
+
+.feature-smallcard img {
+    max-width: 7em;
 }
