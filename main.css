@@ -118,7 +118,7 @@ body {
 }
 
 .card-holder img {
-    max-width: 100%;
+    max-width: 90px;
 }
 
 .card-title {
@@ -148,6 +148,7 @@ body {
 .segment-main {
     overflow: scroll;
     max-width: 100%;
+    text-align: center;
 }
 
 .section-body {
@@ -276,7 +277,7 @@ body {
 }
 
 .segment-card img {
-    max-width: 100%;
+    max-width: 5em;
 }
 
 .partner {
@@ -411,4 +412,160 @@ body {
 
 .feature-smallcard img {
     max-width: 7em;
+}
+
+.partner-section {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(7, 6, 22, 0.81);
+}
+
+.active {
+    font-weight: 600 !important;
+    color: #3A83B5 !important;
+}
+
+.steps {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 48px;
+
+    /* or 171% */
+    color: #000000;
+}
+
+.steps-info {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+}
+
+.partner-form .form-group {
+    display: flex;
+    align-items: center;
+}
+
+.partner-form .form-group input {
+    max-width: 70%;
+    background: #FFFFFF !important;
+    border-radius: 8px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.4);
+    border: 0px solid;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    min-height: 45px;
+}
+
+.partner-form .form-group label {
+    padding-right: 2em;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    width: 50%;
+    text-align: left;
+}
+
+.partner-form-section {
+    background-color: #FAFAFD;
+}
+
+.form-group select {
+    max-width: 70%;
+    background: #FFFFFF !important;
+    border-radius: 8px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.4);
+    border: 0px solid;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    min-height: 45px;
+    width: 100%;
+    height: 45px;
+}
+
+.navbar-toggler-icon {
+    background-image: url('assets/ic_baseline-menu.svg');
+}
+
+@media only screen and (max-width:767px) {
+    .navbar-brand img {
+        max-width: 8em;
+    }
+
+    .hero {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .theme-h1 {
+        font-size: 28px;
+        line-height: 46px;
+    }
+
+    .hero .theme-p {
+        font-size: 18px;
+    }
+
+    .theme-head {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .segement-row {
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .section-body {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+}
+
+.arr {
+}
+
+@media only screen and (max-width:575px) {
+    .arr {
+        display: none;
+    }
+
+    .step-card {
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .segement-row {
+        width: 100%;
+    }
+
+    .arr {
+        display: none;
+    }
+
+    .step-card {
+        margin-bottom: 1em;
+    }
 }
