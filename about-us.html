@@ -28,13 +28,48 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item" href="#">Shares & Stocks</a>
-                            <a class="dropdown-item" href="#">Mutual Funds</a>
-                            <a class="dropdown-item" href="#">Insurance</a>
-                            <a class="dropdown-item" href="#">Loans</a>
-                            <a class="dropdown-item" href="#">Income Tax</a>
-                            <a class="dropdown-item" href="#">Real Estate</a>
-                            <a class="dropdown-item" href="#">Other Services</a>
+                            <a class="dropdown-item test">Product List<span class="caret"></span></a>
+                            <ul class="dropdown-menu dropdown-submenu">
+                                <li>
+                                    <a tabindex="-1" href="#segment" class="dropdown-item">Shares & Stocks</a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="#segment" class="dropdown-item">Mutual Fund</a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="#segment" class="dropdown-item">Insurance</a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="#segment" class="dropdown-item">Loans</a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="#segment" class="dropdown-item">Income Tax</a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="#segment" class="dropdown-item">Real Estate</a>
+                                </li>
+                            </ul>                             
+                            <a class="dropdown-item test" href="#">Other Services <span class="caret"></span></a>
+                            <ul class="dropdown-menu dropdown-submenu" style="top: 36px;">
+                                <li>
+                                    <a tabindex="-1" href="contact-us.html" class="dropdown-item">WEALTH PLANNING</a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="contact-us.html" class="dropdown-item">INVESTMENT PLANNING</a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="contact-us.html" class="dropdown-item">INTERMEDIARY SERVICES</a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="contact-us.html" class="dropdown-item">TAX PLANNING & CONSULTANCY</a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="contact-us.html" class="dropdown-item">ACCOUNTING</a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="contact-us.html" class="dropdown-item">DIGITAL SIGNATURE</a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -255,5 +290,14 @@ About Finorator</h1>
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/popper.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script>
+$(document).ready(function(){
+  $('a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
     </body>
 </html>
