@@ -611,3 +611,25 @@ textarea {
     border-bottom: 0;
     border-left: 0.3em solid transparent;
 }
+
+.eligible-list .list-group-item {
+    padding: 1.2em;
+    margin-bottom: 2em;
+    background-color: #F6F9FF;
+    border: 0 solid;
+    border-radius: 16px;
+    display: flex;
+}
+
+.eligible-list .list-group-item p {
+    margin-left: 2em;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+}
