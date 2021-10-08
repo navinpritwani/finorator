@@ -633,3 +633,37 @@ textarea {
     margin-bottom: auto;
     display: block;
 }
+
+.testimony-card {
+    background: rgba(89, 84, 233, 0.1);
+    padding: 4em;
+    min-height: 260px;
+}
+
+.testimony-body {
+    margin-left: 4em;
+}
+
+.testimony-body img {
+    max-width: 20px;
+    float: left;
+}
+
+.cont {
+}
+
+.testimony-card .testimony-body .cont {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+
+    /* or 156% */
+    color: rgba(7, 6, 22, 0.5);
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.person {
+}
