@@ -389,7 +389,7 @@ body {
 
 .team-card img {
     padding: 0em;
-    max-width: 100%;
+    max-width: 90%;
     margin-bottom: 1em;
 }
 
@@ -666,4 +666,8 @@ textarea {
 }
 
 .person {
+}
+
+.footer-nav li a {
+    color: #fff;
 }
