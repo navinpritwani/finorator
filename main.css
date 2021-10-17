@@ -671,3 +671,8 @@ textarea {
 .footer-nav li a {
     color: #fff;
 }
+
+.segment-main marquee .row div img {
+    max-width: 120px;
+    max-height: 90px;
+}
