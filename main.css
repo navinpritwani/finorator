@@ -71,7 +71,7 @@ body {
     font-family: Red Hat Display;
     font-style: normal;
     font-weight: 800;
-    font-size: 45px;
+    font-size: 42px;
     line-height: 61px;
     color: #000000;
 }
@@ -353,11 +353,13 @@ body {
 }
 
 .about-u {
-    background-image: url('assets/business-strategy-success-target-goals.jpg');
+    /* background-image: url('assets/about.png') */
     background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
-    margin-bottom: 6em;
+    margin-bottom: 3em;
+    background-position: center center;
+    padding-top: 7em;
+    background-color: #f6f6ff;
 }
 
 .about-u .row {
@@ -378,13 +380,12 @@ body {
 }
 
 .team-card {
-    background: #FFFFFF;
-    box-shadow: 0px 0px 60px rgba(89, 84, 233, 0.1);
+    background: #f2f2ff;
     text-align: center;
-    margin-left: 1em;
-    margin-right: 4em;
     margin-bottom: 2em;
     padding: 2em;
+    margin-right: 1em;
+    border-radius: 1em;
 }
 
 .team-card img {
@@ -397,7 +398,7 @@ body {
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 34px;
 
     /* identical to box height */
@@ -408,7 +409,7 @@ body {
     font-family: Red Hat Display;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px;
 
     /* identical to box height, or 140% */
@@ -635,9 +636,12 @@ textarea {
 }
 
 .testimony-card {
-    background: rgba(89, 84, 233, 0.1);
+    /* background: rgba(89, 84, 233, 0.1) */
     padding: 4em;
     min-height: 260px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .testimony-body {
@@ -660,7 +664,7 @@ textarea {
     line-height: 28px;
 
     /* or 156% */
-    color: rgba(7, 6, 22, 0.5);
+    color: rgba(7, 6, 22, 0.8);
     padding-left: 2em;
     padding-right: 2em;
 }
@@ -675,4 +679,31 @@ textarea {
 .segment-main marquee .row div img {
     max-width: 120px;
     max-height: 90px;
+}
+
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 1.5em;
+    justify-content: space-around;
+    padding: 0 .2em;
+    text-align: center;
+    width: 5em;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    color: #f90;
+    cursor: pointer;
+}
+
+.star-rating :checked ~ label {
+    color: #f90;
+}
+
+.vision-card img {
+    max-width: 180px;
 }
