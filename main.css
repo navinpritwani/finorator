@@ -155,7 +155,7 @@ body {
 }
 
 .segment-main {
-    overflow: scroll;
+    overflow: hidden;
     max-width: 100%;
     text-align: center;
 }
