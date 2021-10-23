@@ -166,7 +166,7 @@ body {
 }
 
 .features {
-    background: #F6F6FF;
+    background: #e4e4fa;
 }
 
 .feature-bigcard {
@@ -251,7 +251,7 @@ body {
 }
 
 .blogs {
-    background-color: #F6F6FF;
+    background-color: #e4e4fa;
 }
 
 .blog-card {
@@ -290,7 +290,7 @@ body {
 }
 
 .partner {
-    background: #F6F6FF;
+    background: #e4e4fa;
 }
 
 .partner img {
@@ -363,7 +363,7 @@ body {
     margin-bottom: 3em;
     background-position: center center;
     padding-top: 7em;
-    background-color: #f6f6ff;
+    background-color: #e4e4fa;
 }
 
 .about-u .row {
@@ -491,7 +491,7 @@ textarea {
 }
 
 .partner-form-section {
-    background-color: #F6F6FF;
+    background-color: #e4e4fa;
 }
 
 .form-group select {
@@ -719,4 +719,14 @@ textarea {
 .logos marquee div div {
     padding-right: 2em;
     padding-left: 2em;
+}
+
+#carouselExampleControls3 .carousel-indicators li {
+    color: #232323 !important;
+    background-color: #3e84b3;
+    max-width: 20px;
+}
+
+.affiliations img {
+    min-width: 120px;
 }
