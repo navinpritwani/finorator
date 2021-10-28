@@ -759,4 +759,8 @@ textarea {
     .testimony-body {
         margin-left: 0;
     }
+
+    .vision-card {
+        margin-bottom: 1em;
+    }
 }
