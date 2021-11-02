@@ -400,9 +400,10 @@ body {
 
 .team-card img {
     padding: 0em;
-    max-width: 90%;
+    max-width: 100px;
     margin-bottom: 1em;
-    max-height: 150px;
+    max-height: 130px;
+    border-radius: 10px;
 }
 
 .team-card h3 {
