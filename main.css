@@ -402,6 +402,7 @@ body {
     padding: 0em;
     max-width: 90%;
     margin-bottom: 1em;
+    max-height: 150px;
 }
 
 .team-card h3 {
